@@ -34,4 +34,5 @@ spec "user.vimtex"
 spec "user.lastplace"
 -- Warning: bug detected, spell not working when jukit plugin installed
 -- spec "user.jukit"
+spec "user.jupynium"
 require "user.lazy"
