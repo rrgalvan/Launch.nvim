@@ -53,9 +53,22 @@ vim.api.nvim_create_autocmd({ "TextYankPost" }, {
 })
 
 vim.api.nvim_create_autocmd({ "FileType" }, {
-  pattern = { "gitcommit", "markdown", "NeogitCommitMessage" },
+  pattern = { "gitcommit", "markdown", "NeogitCommitMessage", "tex" },
   callback = function()
     vim.opt_local.wrap = true
     vim.opt_local.spell = true
+  end,
+})
+
+vim.api.nvim_create_autocmd({ "FileType" }, {
+  pattern = { "tex" },
+  -- Set wrap, emacs-like M-q and cursor movement in wrapped lines
+  callback = function()
+    vim.cmd([[
+set wrap
+map <m-q> gwip 
+nnoremap j gj
+nnoremap k gk
+]])
   end,
 })

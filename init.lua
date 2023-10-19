@@ -29,4 +29,9 @@ spec "user.netrw"
 spec "user.project"
 spec "user.toggleterm"
 spec "user.bufdelete"
+-- Added by Rafa
+spec "user.vimtex"
+spec "user.lastplace"
+-- Warning: bug detected, spell not working when jukit plugin installed
+-- spec "user.jukit"
 require "user.lazy"
