@@ -31,6 +31,7 @@ spec "user.toggleterm"
 spec "user.bufdelete"
 -- Added by Rafa
 spec "user.vimtex"
+spec "user.sved"
 spec "user.lastplace"
 -- Warning: bug detected, spell not working when jukit plugin installed
 -- spec "user.jukit"
