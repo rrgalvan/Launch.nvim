@@ -33,7 +33,12 @@ spec "user.bufdelete"
 spec "user.vimtex"
 spec "user.sved"
 spec "user.lastplace"
+spec "user.gutentags"
+spec "user.surround"
 -- Warning: bug detected, spell not working when jukit plugin installed
 -- spec "user.jukit"
 spec "user.jupynium"
+-- spec "user.codeium" -- spec "user.copilot"
+spec "user.bito-ai"
 require "user.lazy"
+
