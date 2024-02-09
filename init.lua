@@ -40,5 +40,7 @@ spec "user.surround"
 spec "user.jupynium"
 -- spec "user.codeium" -- spec "user.copilot"
 spec "user.bito-ai"
+spec "user.notify"
+spec "user.markdown"
 require "user.lazy"
 
