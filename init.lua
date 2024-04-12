@@ -35,10 +35,13 @@ spec "user.sved"
 spec "user.lastplace"
 spec "user.gutentags"
 spec "user.surround"
+-- Python REPL...
 -- Warning: bug detected, spell not working when jukit plugin installed
 -- spec "user.jukit"
-spec "user.jupynium"
+-- spec "user.jupynium"
 -- spec "user.codeium" -- spec "user.copilot"
+spec "user.molten"
+-- ... python REPL end
 spec "user.bito-ai"
 spec "user.notify"
 spec "user.markdown"
