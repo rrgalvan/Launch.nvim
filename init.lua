@@ -30,6 +30,7 @@ spec "user.project"
 spec "user.toggleterm"
 spec "user.bufdelete"
 -- Added by Rafa
+spec "user.plenary"
 spec "user.vimtex"
 spec "user.sved"
 spec "user.lastplace"
@@ -39,7 +40,7 @@ spec "user.surround"
 -- Warning: bug detected, spell not working when jukit plugin installed
 -- spec "user.jukit"
 -- spec "user.jupynium"
--- spec "user.codeium" -- spec "user.copilot"
+spec "user.codeium" -- spec "user.copilot"
 spec "user.molten"
 -- ... python REPL end
 spec "user.bito-ai"

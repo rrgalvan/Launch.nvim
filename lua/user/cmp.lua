@@ -157,6 +157,7 @@ function M.config()
       end,
     },
     sources = {
+      { name = "codeium" },
       { name = "copilot" },
       {
         name = "nvim_lsp",
