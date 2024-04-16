@@ -30,7 +30,7 @@ spec "user.project"
 spec "user.toggleterm"
 spec "user.bufdelete"
 -- Added by Rafa
--- spec "user.plenary"
+spec "user.plenary"
 spec "user.vimtex"
 spec "user.sved"
 spec "user.lastplace"
